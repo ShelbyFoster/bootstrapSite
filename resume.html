@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shelby Foster</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--changes width when used on different devices (mobile/tablet/desktop)-->
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="css/styles.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+
+<!--Black navigation bar on top of page-->
+<div class="navbar navbar-inverse navbar-static-top">
+
+    <div class = "container">
+
+        <a href = "index.html" class = "navbar-brand">Shelby Foster</a>   <!--Left hand side of Navigation Bar-->
+        <button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">  <!--Collapses the nav bar when the page is resized-->
+            <span class = "icon-bar"></span>  <!--When page is collapsed too far a button with 3 lines appears on the right side-->
+            <span class = "icon-bar"></span>
+            <span class = "icon-bar"></span>
+        </button>
+
+        <div class = "collapse navbar-collapse navHeaderCollapse">  <!--Menu Items, if collapsed too far it will open a new menu when button is pressed-->
+
+            <ul class = "nav navbar-nav navbar-right">  <!--Links on the right side of the nav bar-->
+
+                <li><a href = 'index.html'><i class = "glyphicon glyphicon-home"></i> Home</a></li>     <!--Menu items-->
+                <li><a href = 'about.html'><i class = "glyphicon glyphicon-envelope"></i> About</a></li>
+                <li class = "active"><a href = '#'><i class = "glyphicon glyphicon-pencil"></i> Resume</a></li>
+
+                <li class = "dropdown"><a href = '#' class = "dropdown-toggle" data-toggle = "dropdown"><i class = "glyphicon glyphicon-briefcase"></i> Portfolio <b class = "caret"></b></a>   <!--Dropdown item for the Portfolio Button-->
+                    <ul class = "dropdown-menu">
+                        <li><a href = '#'>Project 1</a></li>  <!--Menu Items for Portfolio Drop Down-->
+                        <li><a href = '#'>Project 2</a></li>
+                        <li><a href = '#'>Project 3</a></li>
+
+                    </ul>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<div class = "container">
+    <div class = "row">
+
+        <div class = "col-lg-9">
+
+            <div class = "panel panel-default">
+
+                <div class = "panel-body">
+
+                    <div class = "page-header">
+
+                        <h3 class = "resume">Shelby Foster Resume</h3>
+
+                    </div>
+
+
+                    <h4 class = "resume">Education and Qualifications</h4>
+                    <b>September 2010 to July 2013:</b> BSc Computer Science, University of Hertfordshire
+                    <ul>
+                        <li>Degree Classification: First Class Honours, 1.
+                    </ul>
+                    <b>September 2006 to June 2010:</b> Morrison High School, Morrison, IL, USA
+                    <ul>
+                        <li>Graduated with High School Diploma and an overal GPA of 3.75; Honour Roll each quarter.
+                    </ul>
+
+                    <h4 class = "resume">Employment</h4>
+                    <b>June 2011 to October 2013:</b> Countess Anne Nursery, Hatfield AL10 8AX
+
+                    <h4 class = "resume">Experience</h4>
+                    Created a data logger for a PIC microcontroller.
+                    <ul>
+                        <li>This involved creating a GUI menu using C/C++ that would allow the user to choose from several options. This involved coding the following - the memory bank allocation (EEPROM), changing of time intervals, recording data at each defined interval, viewing a memory banks set of data and clearing the data.
+                    </ul>
+                    Developed a control program for an air conditioning unit of a railway coach using a MPU simulation in Linux.
+                    <ul>
+                        <li>This involved implementing a simple control algorithm using C/C++, that would dictate which mode the air conditioning unit would need to be in at each specific temperature. This required use of concurrency as multiple threads needed to be executed at the same time, as well as programming both an auto and manual configuration mode.
+                    </ul>
+                    Created a J2ME mobile client for a chat server using Java.
+                    <ul>
+                        <li>I was required to design and implement a client that would be able to interact with a provided server using the specified protocols. This required use of concurrency as multiple people were required to be able to communicate at the same time. The functionality would allow a user to login (if constraints are met), retrieve a room list, enter a room, communicate and log out.
+                            I have taken an Artificial Intelligence module, which required learning the basics of python, such as recursion, methods and general syntax. I was required to learn how to write different small programs inside python to help with classifying sets of data, heuristics and applying search algorithms.
+                            I have three years Java experience spread across several projects/modules during University. I also have one year’s C/C++ experience from my final year, which had a heavy focus on microcontrollers and multi-threaded programming.
+                    </ul>
+
+                    <h4 class = "resume">Technical Skills</h4>
+                    <ul>
+                        <li>Programming Languages: C/C++, Java, Python.
+                        <li>Databases: MySQL, PHP.
+                        <li>Websites: HTML, HTML5, CSS.
+                        <li>Software: Adobe Photoshop, Adobe Flash, Adobe Director, Microsoft Office.
+                        <li>Operating Systems: Windows, Linux.
+                    </ul>
+
+                    <h4 class = "resume">Public Speaking</h4>
+                    <ul>
+                        <li>I have had experience giving oral presentations within a group project.
+                        <li>I have given numerous technical demonstrations which required both a presentation and demonstration of a program.
+                    </ul>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+
+<!--Footer on page-->
+<div class = "navbar navbar-default navbar-fixed-bottom">   <!--fixed at the bottom of the page-->
+
+    <div class = "container">
+
+        <p class = "navbar-text pull-left">Site Built By Shelby Foster Using Bootstrap</p>   <!--Footer text-->
+        <a href = "https://github.com/ShelbyFoster" class = "navbar-btn btn-primary btn pull-right">Github</a>   <!--Footer button-->
+    </div>
+
+
+
+</div>
+
+<script src = "http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src = "js/bootstrap.js"></script>
+
+
+</body>
+</html>

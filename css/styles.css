@@ -1,0 +1,23 @@
+body{
+    margin-bottom: 80px;
+}
+.page-header {
+    margin-top: 0;
+}
+
+.panel-body{
+    padding-top: 0;
+
+}
+.list-group-item2{
+    background: #808080;
+
+}
+h4.resume{
+    color:#0066CC;
+
+}
+h3.resume{
+    color:#003366;
+
+}

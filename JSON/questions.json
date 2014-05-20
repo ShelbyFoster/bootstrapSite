@@ -1,0 +1,7 @@
+{
+    "questions": [
+        { "question":"Where is Paris located?", "option1":"France", "option2":"Italy", "option3":"Spain"},
+        { "question":"Where is London located?", "option1":"England", "option2":"Italy", "option3":"USA"},
+        { "question":"Where is California located?", "option1":"USA", "option2":"France", "option3":"Canada"}
+    ]
+}

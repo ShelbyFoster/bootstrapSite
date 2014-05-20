@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shelby Foster</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--changes width when used on different devices (mobile/tablet/desktop)-->
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="css/styles.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+
+<!--Black navigation bar on top of page-->
+<div class="navbar navbar-inverse navbar-static-top">
+
+    <div class = "container">
+
+        <a href = "#" class = "navbar-brand">   <!--Left hand side of Navigation Bar-->
+            Shelby Foster
+        </a>
+        <button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">  <!--Collapses the nav bar when the page is resized-->
+            <span class = "icon-bar"></span>  <!--When page is collapsed too far a button with 3 lines appears on the right side-->
+            <span class = "icon-bar"></span>
+            <span class = "icon-bar"></span>
+        </button>
+
+        <div class = "collapse navbar-collapse navHeaderCollapse">  <!--Menu Items, if collapsed too far it will open a new menu when button is pressed-->
+
+            <ul class = "nav navbar-nav navbar-right">  <!--Links on the right side of the nav bar-->
+
+                <li class = "active"><a href = '#'><i class = "glyphicon glyphicon-home"></i> Home</a></li>     <!--Menu items-->
+                <li><a href = 'about.html'><i class = "glyphicon glyphicon-envelope"></i> About</a></li>
+                <li><a href = 'resume.html'><i class = "glyphicon glyphicon-pencil"></i> Resume</a></li>
+
+                <li class = "dropdown"><a href = '#' class = "dropdown-toggle" data-toggle = "dropdown"><i class = "glyphicon glyphicon-briefcase"></i> Portfolio <b class = "caret"></b></a>   <!--Dropdown item for the Portfolio Button-->
+                    <ul class = "dropdown-menu">
+                        <li><a href = '#'>Project 1</a></li>  <!--Menu Items for Portfolio Drop Down-->
+                        <li><a href = '#'>Project 2</a></li>
+                        <li><a href = '#'>Project 3</a></li>
+
+                    </ul>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!--Light Grey area on page-->
+<div class = "container">
+    <div class = "jumbotron text-center">   <!--center all text-->
+        <h1>Shelby Foster</h1>
+        <p>I am a recent Computer Science graduate looking for a Front End Web Developer position.</p>
+    </div>
+</div>
+
+
+<!--Collumns on page-->
+<div class = "container">
+
+    <div class = "row">     <!--Create row of columns-->
+
+        <div class = "col-md-4">    <!--First Column takes up 4/12 positions-->
+
+            <h3>Education</h3>
+            <p>Recent graduate from the University of Hertfordshire. Graduated with a Bachelor's degree in Computer Science and finished with First Class Honours. </p>
+            <a href = "resume.html" class = "btn btn-default">Read More</a>
+        </div>
+
+        <div class = "col-md-4">    <!--Second Column takes up 4/12 positions-->
+
+            <h3>Final Year Project</h3>
+            <p>For my Final Year Project I created a playable Sudoku game. The program could generate 'Easy' puzzles or allow the player to insert their own puzzle. Once a puzzle had been generated or inserted the program could solve the puzzle as long as it was considered an 'Easy' difficulty.</p>
+            <a href = "#" class = "btn btn-default">Read More</a>
+        </div>
+
+
+        <div class = "col-md-4">    <!--Third Column takes up 4/12 positions-->
+
+            <h3>Contact</h3>
+            <p>You can find my contact details by clicking on the button below.</p>
+            <a href = "about.html" class = "btn btn-default">Read More</a>
+        </div>
+
+    </div>
+
+</div>
+
+<!--Footer on page-->
+<div class = "navbar navbar-default navbar-fixed-bottom">   <!--fixed at the bottom of the page-->
+
+    <div class = "container">
+
+        <p class = "navbar-text pull-left">Website built by Shelby Foster using Bootstrap</p>   <!--Footer text-->
+        <a href = "https://github.com/ShelbyFoster" class = "navbar-btn btn-primary btn pull-right">Github</a>   <!--Footer button-->
+    </div>
+
+
+
+</div>
+
+<script src = "http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src = "js/bootstrap.js"></script>
+
+
+</body>
+</html>
